@@ -1,0 +1,774 @@
+computing mean-std for scale: 1.0
+computing mean-std for scale: 1.4
+computing mean-std for scale: 1.8
+computing mean-std for scale: 2.2
+computing mean-std for scale: 2.6
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_1__dev.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.0050449371337890625  count: 0
+time: 0.1513967514038086  count: 1000
+time: 0.08188128471374512  count: 2000
+time: 0.07636523246765137  count: 3000
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_1__train.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.0035288333892822266  count: 0
+time: 0.5843205451965332  count: 1000
+time: 0.45148682594299316  count: 2000
+time: 0.402179479598999  count: 3000
+time: 0.43448591232299805  count: 4000
+time: 0.3391275405883789  count: 5000
+time: 0.41690802574157715  count: 6000
+time: 0.3744196891784668  count: 7000
+time: 0.4035212993621826  count: 8000
+time: 0.3968205451965332  count: 9000
+time: 0.5077974796295166  count: 10000
+time: 0.19626688957214355  count: 11000
+[11:36:50] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_1__train.rec, use 3 threads for decoding..
+[11:36:50] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_1__dev.rec, use 3 threads for decoding..
+Epoch[0] Train-cross-entropy=0.864332
+Epoch[0] Train-accuracy=0.804766
+Epoch[0] Time cost=1093.532
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0001.params"
+Epoch[0] Validation-cross-entropy=0.120658
+Epoch[0] Validation-accuracy=0.955829
+Epoch[1] Train-cross-entropy=0.078552
+Epoch[1] Train-accuracy=0.971953
+Epoch[1] Time cost=1083.995
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0002.params"
+Epoch[1] Validation-cross-entropy=0.097933
+Epoch[1] Validation-accuracy=0.967248
+Epoch[2] Train-cross-entropy=0.023913
+Epoch[2] Train-accuracy=0.992656
+Epoch[2] Time cost=1069.400
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0003.params"
+Epoch[2] Validation-cross-entropy=0.049179
+Epoch[2] Validation-accuracy=0.978365
+Epoch[3] Train-cross-entropy=0.011006
+Epoch[3] Train-accuracy=0.997812
+Epoch[3] Time cost=1046.975
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0004.params"
+Epoch[3] Validation-cross-entropy=0.125542
+Epoch[3] Validation-accuracy=0.968750
+Epoch[4] Train-cross-entropy=0.009486
+Epoch[4] Train-accuracy=0.997734
+Epoch[4] Time cost=1036.453
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0005.params"
+Epoch[4] Validation-cross-entropy=0.076523
+Epoch[4] Validation-accuracy=0.975000
+Update[501]: Change learning rate to 2.50000e-05
+Epoch[5] Train-cross-entropy=0.005411
+Epoch[5] Train-accuracy=0.998984
+Epoch[5] Time cost=1040.799
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0006.params"
+Epoch[5] Validation-cross-entropy=0.051628
+Epoch[5] Validation-accuracy=0.979868
+Epoch[6] Train-cross-entropy=0.004466
+Epoch[6] Train-accuracy=0.998984
+Epoch[6] Time cost=1044.847
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0007.params"
+Epoch[6] Validation-cross-entropy=0.058527
+Epoch[6] Validation-accuracy=0.979267
+Epoch[7] Train-cross-entropy=0.003584
+Epoch[7] Train-accuracy=0.999531
+Epoch[7] Time cost=1039.974
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0008.params"
+Epoch[7] Validation-cross-entropy=0.057059
+Epoch[7] Validation-accuracy=0.979567
+Epoch[8] Train-cross-entropy=0.003675
+Epoch[8] Train-accuracy=0.999453
+Epoch[8] Time cost=1043.815
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0009.params"
+Epoch[8] Validation-cross-entropy=0.057831
+Epoch[8] Validation-accuracy=0.978750
+Epoch[9] Train-cross-entropy=0.003240
+Epoch[9] Train-accuracy=0.999687
+Epoch[9] Time cost=1044.458
+Saved checkpoint to "experiments/casia/scale_1.4__fold_1/net-0010.params"
+Epoch[9] Validation-cross-entropy=0.058530
+Epoch[9] Validation-accuracy=0.979267
+Scale: 1.4; Fold: 1. Preparing CNN features ...
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.000977 ...
+Scale: 1.4; Fold: 1. Preparing CNN features ...
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.000977 ...
+Accuracy = 97.8465% (3226/3297) (classification)
+Accuracy = 96.6466% (3372/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.003906 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.015625 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.062500 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.250000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=4.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=16.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=64.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=256.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Preparing CNN features ...
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.000977 ...
+Accuracy = 97.8465% (3226/3297) (classification)
+Accuracy = 96.6466% (3372/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.003906 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.015625 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.062500 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.250000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=4.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=16.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=64.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=256.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Preparing CNN features ...
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.000977 ...
+Accuracy = 97.8465% (3226/3297) (classification)
+Accuracy = 96.6466% (3372/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.003906 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.015625 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.062500 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.250000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=4.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=16.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=64.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=256.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+CASIA: scale_1.4 results:
+C = 0.000977:
+	EER-dev:	0.027026 (0.027026)
+	HTER-test:	0.042071 (0.042071)
+	EER-test:	0.053931 (0.053931)
+C = 0.003906:
+	EER-dev:	0.035437 (0.035437)
+	HTER-test:	0.041883 (0.041883)
+	EER-test:	0.053931 (0.053931)
+C = 0.015625:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 0.062500:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 0.250000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 1.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 4.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 16.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 64.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 256.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+C = 1024.000000:
+	EER-dev:	0.040040 (0.040040)
+	HTER-test:	0.041506 (0.041506)
+	EER-test:	0.053931 (0.053931)
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_2__dev.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.00801396369934082  count: 0
+time: 0.129655122756958  count: 1000
+time: 0.08172893524169922  count: 2000
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_2__train.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.005859375  count: 0
+time: 0.14421892166137695  count: 1000
+time: 0.10961389541625977  count: 2000
+time: 0.07833266258239746  count: 3000
+time: 0.09583759307861328  count: 4000
+time: 0.0779421329498291  count: 5000
+time: 0.07331490516662598  count: 6000
+time: 0.0979471206665039  count: 7000
+time: 0.07838988304138184  count: 8000
+time: 0.07774591445922852  count: 9000
+time: 0.07660961151123047  count: 10000
+time: 0.05513715744018555  count: 11000
+time: 0.051499128341674805  count: 12000
+[23:45:16] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_2__train.rec, use 3 threads for decoding..
+[23:45:16] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_2__dev.rec, use 3 threads for decoding..
+Epoch[0] Train-cross-entropy=0.846964
+Epoch[0] Train-accuracy=0.808906
+Epoch[0] Time cost=1061.290
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0001.params"
+Epoch[0] Validation-cross-entropy=0.153993
+Epoch[0] Validation-accuracy=0.915761
+Epoch[1] Train-cross-entropy=0.068126
+Epoch[1] Train-accuracy=0.973047
+Epoch[1] Time cost=1045.187
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0002.params"
+Epoch[1] Validation-cross-entropy=0.149861
+Epoch[1] Validation-accuracy=0.928329
+Epoch[2] Train-cross-entropy=0.021135
+Epoch[2] Train-accuracy=0.993125
+Epoch[2] Time cost=1048.552
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0003.params"
+Epoch[2] Validation-cross-entropy=0.157744
+Epoch[2] Validation-accuracy=0.919837
+Epoch[3] Train-cross-entropy=0.013977
+Epoch[3] Train-accuracy=0.995859
+Epoch[3] Time cost=1048.200
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0004.params"
+Epoch[3] Validation-cross-entropy=0.060525
+Epoch[3] Validation-accuracy=0.978940
+Epoch[4] Train-cross-entropy=0.008956
+Epoch[4] Train-accuracy=0.997422
+Epoch[4] Time cost=1053.846
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0005.params"
+Epoch[4] Validation-cross-entropy=0.127987
+Epoch[4] Validation-accuracy=0.929348
+Update[501]: Change learning rate to 2.50000e-05
+Epoch[5] Train-cross-entropy=0.011378
+Epoch[5] Train-accuracy=0.996641
+Epoch[5] Time cost=1052.486
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0006.params"
+Epoch[5] Validation-cross-entropy=0.094907
+Epoch[5] Validation-accuracy=0.952785
+Epoch[6] Train-cross-entropy=0.003730
+Epoch[6] Train-accuracy=0.999375
+Epoch[6] Time cost=1048.063
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0007.params"
+Epoch[6] Validation-cross-entropy=0.087524
+Epoch[6] Validation-accuracy=0.955842
+Epoch[7] Train-cross-entropy=0.003230
+Epoch[7] Train-accuracy=0.999687
+Epoch[7] Time cost=1046.704
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0008.params"
+Epoch[7] Validation-cross-entropy=0.091717
+Epoch[7] Validation-accuracy=0.953465
+Epoch[8] Train-cross-entropy=0.003069
+Epoch[8] Train-accuracy=0.999297
+Epoch[8] Time cost=1054.222
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0009.params"
+Epoch[8] Validation-cross-entropy=0.077766
+Epoch[8] Validation-accuracy=0.966372
+Epoch[9] Train-cross-entropy=0.003661
+Epoch[9] Train-accuracy=0.999062
+Epoch[9] Time cost=1053.036
+Saved checkpoint to "experiments/casia/scale_1.4__fold_2/net-0010.params"
+Epoch[9] Validation-cross-entropy=0.087690
+Epoch[9] Validation-accuracy=0.958899
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_3__dev.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.013327836990356445  count: 0
+time: 3.201023578643799  count: 1000
+time: 1.9129297733306885  count: 2000
+time: 3.136199712753296  count: 3000
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_3__train.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.029059171676635742  count: 0
+time: 7.518907308578491  count: 1000
+time: 4.865782260894775  count: 2000
+time: 4.24733304977417  count: 3000
+time: 4.118368864059448  count: 4000
+time: 9.814329862594604  count: 5000
+time: 5.8244335651397705  count: 6000
+time: 6.945447206497192  count: 7000
+time: 6.65886378288269  count: 8000
+time: 7.361370086669922  count: 9000
+time: 6.9907355308532715  count: 10000
+time: 4.916230916976929  count: 11000
+[02:53:29] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_3__train.rec, use 3 threads for decoding..
+[02:53:30] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_3__dev.rec, use 3 threads for decoding..
+Epoch[0] Train-cross-entropy=0.905307
+Epoch[0] Train-accuracy=0.799453
+Epoch[0] Time cost=1071.273
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0001.params"
+Epoch[0] Validation-cross-entropy=0.295058
+Epoch[0] Validation-accuracy=0.865685
+Epoch[1] Train-cross-entropy=0.082283
+Epoch[1] Train-accuracy=0.969609
+Epoch[1] Time cost=1061.308
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0002.params"
+Epoch[1] Validation-cross-entropy=0.167261
+Epoch[1] Validation-accuracy=0.924063
+Epoch[2] Train-cross-entropy=0.029336
+Epoch[2] Train-accuracy=0.990547
+Epoch[2] Time cost=1055.681
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0003.params"
+Epoch[2] Validation-cross-entropy=0.182345
+Epoch[2] Validation-accuracy=0.951250
+Epoch[3] Train-cross-entropy=0.011620
+Epoch[3] Train-accuracy=0.997031
+Epoch[3] Time cost=1055.797
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0004.params"
+Epoch[3] Validation-cross-entropy=0.184065
+Epoch[3] Validation-accuracy=0.955000
+Epoch[4] Train-cross-entropy=0.007746
+Epoch[4] Train-accuracy=0.998359
+Epoch[4] Time cost=1055.017
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0005.params"
+Epoch[4] Validation-cross-entropy=0.222060
+Epoch[4] Validation-accuracy=0.958438
+Update[501]: Change learning rate to 2.50000e-05
+Epoch[5] Train-cross-entropy=0.005848
+Epoch[5] Train-accuracy=0.998906
+Epoch[5] Time cost=1057.732
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0006.params"
+Epoch[5] Validation-cross-entropy=0.188804
+Epoch[5] Validation-accuracy=0.954688
+Epoch[6] Train-cross-entropy=0.003451
+Epoch[6] Train-accuracy=0.999844
+Epoch[6] Time cost=1062.832
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0007.params"
+Epoch[6] Validation-cross-entropy=0.230398
+Epoch[6] Validation-accuracy=0.941406
+Epoch[7] Train-cross-entropy=0.003907
+Epoch[7] Train-accuracy=0.999375
+Epoch[7] Time cost=1056.931
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0008.params"
+Epoch[7] Validation-cross-entropy=0.190387
+Epoch[7] Validation-accuracy=0.949688
+Epoch[8] Train-cross-entropy=0.003893
+Epoch[8] Train-accuracy=0.999453
+Epoch[8] Time cost=1060.531
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0009.params"
+Epoch[8] Validation-cross-entropy=0.194131
+Epoch[8] Validation-accuracy=0.952812
+Epoch[9] Train-cross-entropy=0.003235
+Epoch[9] Train-accuracy=0.999531
+Epoch[9] Time cost=1057.336
+Saved checkpoint to "experiments/casia/scale_1.4__fold_3/net-0010.params"
+Epoch[9] Validation-cross-entropy=0.182910
+Epoch[9] Validation-accuracy=0.952500
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_4__dev.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.004606485366821289  count: 0
+time: 0.16291022300720215  count: 1000
+time: 0.045326948165893555  count: 2000
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_4__train.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.0032508373260498047  count: 0
+time: 0.17395257949829102  count: 1000
+time: 0.09842705726623535  count: 2000
+time: 0.09119772911071777  count: 3000
+time: 0.0823359489440918  count: 4000
+time: 0.05779528617858887  count: 5000
+time: 0.0692756175994873  count: 6000
+time: 0.08275580406188965  count: 7000
+time: 0.08105778694152832  count: 8000
+time: 0.07174324989318848  count: 9000
+time: 0.07913827896118164  count: 10000
+time: 0.06632828712463379  count: 11000
+time: 0.03128504753112793  count: 12000
+[06:02:15] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_4__train.rec, use 3 threads for decoding..
+[06:02:16] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_4__dev.rec, use 3 threads for decoding..
+Epoch[0] Train-cross-entropy=0.924450
+Epoch[0] Train-accuracy=0.796250
+Epoch[0] Time cost=1067.592
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0001.params"
+Epoch[0] Validation-cross-entropy=0.225709
+Epoch[0] Validation-accuracy=0.912287
+Epoch[1] Train-cross-entropy=0.091070
+Epoch[1] Train-accuracy=0.964531
+Epoch[1] Time cost=1070.674
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0002.params"
+Epoch[1] Validation-cross-entropy=0.192548
+Epoch[1] Validation-accuracy=0.924361
+Epoch[2] Train-cross-entropy=0.029343
+Epoch[2] Train-accuracy=0.991406
+Epoch[2] Time cost=1069.189
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0003.params"
+Epoch[2] Validation-cross-entropy=0.195198
+Epoch[2] Validation-accuracy=0.938244
+Epoch[3] Train-cross-entropy=0.012163
+Epoch[3] Train-accuracy=0.996484
+Epoch[3] Time cost=1061.102
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0004.params"
+Epoch[3] Validation-cross-entropy=0.198174
+Epoch[3] Validation-accuracy=0.940341
+Epoch[4] Train-cross-entropy=0.009562
+Epoch[4] Train-accuracy=0.997422
+Epoch[4] Time cost=1066.993
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0005.params"
+Epoch[4] Validation-cross-entropy=0.190688
+Epoch[4] Validation-accuracy=0.927455
+Update[501]: Change learning rate to 2.50000e-05
+Epoch[5] Train-cross-entropy=0.004996
+Epoch[5] Train-accuracy=0.999453
+Epoch[5] Time cost=1063.985
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0006.params"
+Epoch[5] Validation-cross-entropy=0.184238
+Epoch[5] Validation-accuracy=0.941051
+Epoch[6] Train-cross-entropy=0.004569
+Epoch[6] Train-accuracy=0.999219
+Epoch[6] Time cost=1053.141
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0007.params"
+Epoch[6] Validation-cross-entropy=0.188943
+Epoch[6] Validation-accuracy=0.943892
+Epoch[7] Train-cross-entropy=0.003575
+Epoch[7] Train-accuracy=0.999453
+Epoch[7] Time cost=1057.517
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0008.params"
+Epoch[7] Validation-cross-entropy=0.191208
+Epoch[7] Validation-accuracy=0.942336
+Epoch[8] Train-cross-entropy=0.003075
+Epoch[8] Train-accuracy=0.999687
+Epoch[8] Time cost=1060.424
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0009.params"
+Epoch[8] Validation-cross-entropy=0.190274
+Epoch[8] Validation-accuracy=0.943537
+Epoch[9] Train-cross-entropy=0.003869
+Epoch[9] Train-accuracy=0.999219
+Epoch[9] Time cost=1063.192
+Saved checkpoint to "experiments/casia/scale_1.4__fold_4/net-0010.params"
+Epoch[9] Validation-cross-entropy=0.190376
+Epoch[9] Validation-accuracy=0.943452
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_5__dev.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.0049397945404052734  count: 0
+time: 0.15137195587158203  count: 1000
+time: 0.057534217834472656  count: 2000
+Creating .rec file from /home/centos/pad/lcnn-mxnet/data/casia/mxnet/scale_1.4__fold_5__train.lst in /home/centos/pad/lcnn-mxnet/data/casia/mxnet
+time: 0.0026793479919433594  count: 0
+time: 0.13898158073425293  count: 1000
+time: 0.08083128929138184  count: 2000
+time: 0.08049774169921875  count: 3000
+time: 0.0737459659576416  count: 4000
+time: 0.0756375789642334  count: 5000
+time: 0.10944080352783203  count: 6000
+time: 0.05979633331298828  count: 7000
+time: 0.06655240058898926  count: 8000
+time: 0.05907106399536133  count: 9000
+time: 0.05501198768615723  count: 10000
+time: 0.06876111030578613  count: 11000
+time: 0.046736955642700195  count: 12000
+[09:10:09] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_5__train.rec, use 3 threads for decoding..
+[09:10:09] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/casia/mxnet/scale_1.4__fold_5__dev.rec, use 3 threads for decoding..
+Epoch[0] Train-cross-entropy=0.953988
+Epoch[0] Train-accuracy=0.781953
+Epoch[0] Time cost=1065.002
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0001.params"
+Epoch[0] Validation-cross-entropy=0.033447
+Epoch[0] Validation-accuracy=0.999660
+Epoch[1] Train-cross-entropy=0.109206
+Epoch[1] Train-accuracy=0.956875
+Epoch[1] Time cost=1062.476
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0002.params"
+Epoch[1] Validation-cross-entropy=0.011028
+Epoch[1] Validation-accuracy=0.999290
+Epoch[2] Train-cross-entropy=0.031841
+Epoch[2] Train-accuracy=0.990156
+Epoch[2] Time cost=1057.134
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0003.params"
+Epoch[2] Validation-cross-entropy=0.003162
+Epoch[2] Validation-accuracy=0.999645
+Epoch[3] Train-cross-entropy=0.014956
+Epoch[3] Train-accuracy=0.995938
+Epoch[3] Time cost=1061.416
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0004.params"
+Epoch[3] Validation-cross-entropy=0.002798
+Epoch[3] Validation-accuracy=1.000000
+Epoch[4] Train-cross-entropy=0.009460
+Epoch[4] Train-accuracy=0.997812
+Epoch[4] Time cost=1052.894
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0005.params"
+Epoch[4] Validation-cross-entropy=0.006268
+Epoch[4] Validation-accuracy=0.998224
+Update[501]: Change learning rate to 2.50000e-05
+Epoch[5] Train-cross-entropy=0.004200
+Epoch[5] Train-accuracy=0.999687
+Epoch[5] Time cost=1062.520
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0006.params"
+Epoch[5] Validation-cross-entropy=0.002989
+Epoch[5] Validation-accuracy=1.000000
+Epoch[6] Train-cross-entropy=0.004022
+Epoch[6] Train-accuracy=0.999297
+Epoch[6] Time cost=1062.694
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0007.params"
+Epoch[6] Validation-cross-entropy=0.001665
+Epoch[6] Validation-accuracy=1.000000
+Epoch[7] Train-cross-entropy=0.004265
+Epoch[7] Train-accuracy=0.999297
+Epoch[7] Time cost=1054.886
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0008.params"
+Epoch[7] Validation-cross-entropy=0.003041
+Epoch[7] Validation-accuracy=1.000000
+Epoch[8] Train-cross-entropy=0.003943
+Epoch[8] Train-accuracy=0.999531
+Epoch[8] Time cost=1055.531
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0009.params"
+Epoch[8] Validation-cross-entropy=0.002332
+Epoch[8] Validation-accuracy=1.000000
+Epoch[9] Train-cross-entropy=0.003581
+Epoch[9] Train-accuracy=0.999609
+Epoch[9] Time cost=1068.971
+Saved checkpoint to "experiments/casia/scale_1.4__fold_5/net-0010.params"
+Epoch[9] Validation-cross-entropy=0.001992
+Epoch[9] Validation-accuracy=1.000000
+Scale: 1.4; Fold: 1. Preparing CNN features ...
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.000977 ...
+Accuracy = 97.8465% (3226/3297) (classification)
+Accuracy = 96.6466% (3372/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.003906 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.015625 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.062500 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=0.250000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=4.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=16.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=64.000000 ...
+Accuracy = 97.5129% (3215/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=256.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 1. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 97.4826% (3214/3297) (classification)
+Accuracy = 96.6753% (3373/3489) (classification)
+Scale: 1.4; Fold: 2. Preparing CNN features ...
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=0.000977 ...
+Accuracy = 95.7526% (2818/2943) (classification)
+Accuracy = 96.0447% (3351/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=0.003906 ...
+Accuracy = 95.8885% (2822/2943) (classification)
+Accuracy = 96.0734% (3352/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=0.015625 ...
+Accuracy = 96.704% (2846/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=0.062500 ...
+Accuracy = 96.5681% (2842/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=0.250000 ...
+Accuracy = 96.6361% (2844/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=1.000000 ...
+Accuracy = 96.6021% (2843/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=4.000000 ...
+Accuracy = 96.6021% (2843/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=16.000000 ...
+Accuracy = 96.5002% (2840/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=64.000000 ...
+Accuracy = 96.6361% (2844/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=256.000000 ...
+Accuracy = 96.5681% (2842/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 2. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 96.6021% (2843/2943) (classification)
+Accuracy = 96.0161% (3350/3489) (classification)
+Scale: 1.4; Fold: 3. Preparing CNN features ...
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=0.000977 ...
+Accuracy = 94.1304% (3031/3220) (classification)
+Accuracy = 96.3027% (3360/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=0.003906 ...
+Accuracy = 94.2236% (3034/3220) (classification)
+Accuracy = 96.188% (3356/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=0.015625 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=0.062500 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=0.250000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=1.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=4.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=16.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=64.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=256.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 3. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 94.1925% (3033/3220) (classification)
+Accuracy = 96.1307% (3354/3489) (classification)
+Scale: 1.4; Fold: 4. Preparing CNN features ...
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=0.000977 ...
+Accuracy = 94.3178% (2606/2763) (classification)
+Accuracy = 94.2104% (3287/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=0.003906 ...
+Accuracy = 94.354% (2607/2763) (classification)
+Accuracy = 94.1817% (3286/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=0.015625 ...
+Accuracy = 94.2454% (2604/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=0.062500 ...
+Accuracy = 94.2816% (2605/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=0.250000 ...
+Accuracy = 94.3178% (2606/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=1.000000 ...
+Accuracy = 94.173% (2602/2763) (classification)
+Accuracy = 94.1817% (3286/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=4.000000 ...
+Accuracy = 94.173% (2602/2763) (classification)
+Accuracy = 94.1817% (3286/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=16.000000 ...
+Accuracy = 94.2816% (2605/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=64.000000 ...
+Accuracy = 94.2816% (2605/2763) (classification)
+Accuracy = 94.2104% (3287/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=256.000000 ...
+Accuracy = 94.2816% (2605/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 4. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 94.2816% (2605/2763) (classification)
+Accuracy = 94.1531% (3285/3489) (classification)
+Scale: 1.4; Fold: 5. Preparing CNN features ...
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=0.000977 ...
+Accuracy = 100% (2851/2851) (classification)
+Accuracy = 95.2995% (3325/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=0.003906 ...
+Accuracy = 99.9298% (2849/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=0.015625 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=0.062500 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=0.250000 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=1.000000 ...
+Accuracy = 99.9298% (2849/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=4.000000 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=16.000000 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=64.000000 ...
+Accuracy = 99.9298% (2849/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=256.000000 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+Scale: 1.4; Fold: 5. Training and estimation SVM with C=1024.000000 ...
+Accuracy = 99.8948% (2848/2851) (classification)
+Accuracy = 95.1849% (3321/3489) (classification)
+CASIA: scale_1.4 results:
+C = 0.000977:
+	EER-dev:	0.031084 (0.027026, 0.020988, 0.062940, 0.044467, 0.000000)
+	HTER-test:	0.054571 (0.042071, 0.050354, 0.066356, 0.058826, 0.055249)
+	EER-test:	0.055096 (0.053931, 0.053931, 0.055096, 0.058591, 0.053931)
+C = 0.003906:
+	EER-dev:	0.032635 (0.035437, 0.018025, 0.063752, 0.045963, 0.000000)
+	HTER-test:	0.054616 (0.041883, 0.050731, 0.064320, 0.059767, 0.056378)
+	EER-test:	0.055367 (0.053931, 0.053931, 0.056449, 0.058591, 0.053931)
+C = 0.015625:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 0.062500:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 0.250000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 1.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 4.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 16.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 64.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 256.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
+C = 1024.000000:
+	EER-dev:	0.034676 (0.040040, 0.018250, 0.064170, 0.050919, 0.000000)
+	HTER-test:	0.055068 (0.041506, 0.050731, 0.064885, 0.060896, 0.057320)
+	EER-test:	0.054976 (0.053931, 0.053931, 0.055284, 0.057802, 0.053931)
